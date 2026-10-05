@@ -32,7 +32,7 @@ class ModePreset:
 MODE_PRESETS = {
     OperatingMode.BALANCED: ModePreset(
         mode=OperatingMode.BALANCED,
-        threshold_low=0.15, threshold_high=0.35,
+        threshold_low=0.50, threshold_high=0.80,
         description="Default. Matches the values used for the main results.",
     ),
     OperatingMode.STRICT: ModePreset(
