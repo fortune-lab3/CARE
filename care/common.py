@@ -29,12 +29,12 @@ CLASS_BASE_SCORE = {
     RiskClass.READ_ONLY:               0.00,
     RiskClass.WRITE_LOCAL:             0.15,
     RiskClass.WRITE_SENSITIVE:         0.70,
-    RiskClass.NETWORK_FETCH:           0.40,
-    RiskClass.EXECUTION_CHAIN:         0.60,
-    RiskClass.PRIVILEGE_OR_PERMISSION: 0.75,
+    RiskClass.NETWORK_FETCH:           0.30,
+    RiskClass.EXECUTION_CHAIN:         0.50,
+    RiskClass.PRIVILEGE_OR_PERMISSION: 0.65,
     RiskClass.PERSISTENCE:             0.80,
     RiskClass.DESTRUCTIVE:             1.00,
-    RiskClass.RESOURCE_ABUSE:          0.15,
+    RiskClass.RESOURCE_ABUSE:          0.10,
     RiskClass.UNKNOWN:                 0.35,
 }
 
