@@ -51,7 +51,7 @@ class CAREEngine:
     def __init__(self, workspace: str = ".",
                  w_sem: float = 0.30, w_path: float = 0.30,
                  w_pat: float = 0.30, w_struct: float = 0.10,
-                 threshold_low: float = 0.15, threshold_high: float = 0.35,
+                 threshold_low: float = 0.50, threshold_high: float = 0.80,
                  disable_layers: tuple = (),
                  mode: "OperatingMode | str | None" = None):
         self.ast_parser       = ASTParser()
