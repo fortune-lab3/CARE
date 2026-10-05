@@ -16,8 +16,8 @@ class PolicyConfig:
     w_path:   float = 0.30
     w_pat:    float = 0.30
     w_struct: float = 0.10
-    threshold_low:  float = 0.15   # tuned on dev split; raises DR from 37→72% at modest FPR cost
-    threshold_high: float = 0.35   # opens a narrow WARN band for LLM escalation
+    threshold_low:  float = 0.50   # tuned on dev split; raises DR from 37→72% at modest FPR cost
+    threshold_high: float = 0.85   # opens a narrow WARN band for LLM escalation
 
 
 def compose(sem_score: float, path_score: float, pat_score: float,
