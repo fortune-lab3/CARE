@@ -34,7 +34,7 @@ CLASS_BASE_SCORE = {
     RiskClass.PRIVILEGE_OR_PERMISSION: 0.75,
     RiskClass.PERSISTENCE:             0.80,
     RiskClass.DESTRUCTIVE:             1.00,
-    RiskClass.RESOURCE_ABUSE:          0.85,
+    RiskClass.RESOURCE_ABUSE:          0.15,
     RiskClass.UNKNOWN:                 0.35,
 }
 
